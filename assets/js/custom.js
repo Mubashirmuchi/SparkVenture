@@ -183,7 +183,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
 
   // Send email to the organization
-  emailjs.send('service_d3l1d5g', 'template_1botosx', params)
+  emailjs.send('service_szvebvv', 'template_01i76t5', params)
       .then(function(response) {
           console.log("Email sent to organization:", response);
 
