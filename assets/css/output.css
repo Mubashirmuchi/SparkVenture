@@ -1506,6 +1506,14 @@ video {
   color: rgb(152 161 174 / var(--tw-text-opacity));
 }
 
+.text-wc-100{
+  color:#ffffff;
+}
+
+.text-wcs-100{
+  color:#666666;
+}
+
 .text-w-300 {
   --tw-text-opacity: 1;
   color: rgb(175 182 192 / var(--tw-text-opacity));
@@ -1970,17 +1978,16 @@ video {
 }
 
 
-/* 
-@media only screen and (max-width: 600px) {
-  .bridging {
-  color: rgb(0, 0, 0);
-  background-color: aquamarine;
 
+@media only screen and (max-width: 600px) {
+
+
+  #texts{
+    color: #ffffff;
   }
-  .tittle{
-    color:#b788ef
-  }
-} */
+
+  
+}
 
 /* 
 @media (min-aspect-ratio:16/9) {
@@ -2004,6 +2011,16 @@ video {
 @media only screen and (max-width: 600px) {
   .back-video{
     display: none;
+
   }
+  #texts{
+    color: #000000;
+    
+ 
+  }
+#textss{
+  background-color: rgb(183, 177, 177);
+}
+  
   
 }
